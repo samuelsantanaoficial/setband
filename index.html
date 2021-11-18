@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>SetBand 3.1</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js" integrity="sha512-zYXldzJsDrNKV+odAwFYiDXV2Cy37cwizT+NkuiPGsa9X1dOz04eHvUWVuxaJ299GvcJT31ug2zO4itXBjFx4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" class="flexBox" style="display: flex; flex-flow: row wrap; justify-content: center;">
+    <nav class="navbar navbar-expand text-primary fixed-top navbar-primary bg-white" id="myNavbar">
+        <div class="container site-navbar-target">
+            <h1><img src="./assets/img/SetBand.svg" width="230"></h1>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#setlist">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#musicas">Repertório</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" style="height: 134px;" id="setlist"></div>
+
+    <form class="container rounded col-12" id="form">
+        <div id="inicio">
+            <legend id="leg" class="text-primary">Início</legend>
+            <label>Título</label>
+            <br>
+            <input class="rounded col-12" type="text" id="titulo">
+            <br>
+            <br>
+            <label>Data & Hora</label>
+            <br>
+            <input class="rounded" type="date" id="data">
+            <input class="rounded" type="time" id="hora">
+        </div>
+
+        <hr>
+
+        <div id="escolha">
+            <legend id="leg" class="text-primary">SetList</legend>
+            <input class="w-auto rounded col-12" type="text" id="nome" list="repertorio">
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary" onclick="addMusic()">Adicionar à SetList</button>
+            <br>
+            <br>
+            <div class="col">
+                <ul class="list-group setlist" id="lista">
+                    <!-- <li class="musicas list-group-item list-group-item-action" ondblclick="delMusic()">teste1 - *F#m*<br>_(samuel)_</li> -->
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="escala">
+            <legend id="leg" class="text-primary">Escala</legend>
+            <input class="w-auto rounded col-12" type="text" id="membro" list="integrantes">
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary" onclick="addEscala()">Escalar</button>
+            <br>
+            <br>
+
+            <div id="membros" class="row justify-content-center"></div>
+
+            <br>
+        </div>
+
+        <hr>
+
+        <div id="fim">
+            <legend id="leg" class="text-primary">Nota</legend>
+            <input class="rounded col-12" type="text" id="nota">
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary" onclick="copiar()">Gerar SetList</button>
+            <br>
+            <hr>
+            <legend id="leg" class="text-primary">SetList</legend>
+            <textarea class="form-control rounded w-80" rows="25" type="text" id="resultado"></textarea>
+            <br>
+            <br>
+        </div>
+    </form>
+
+    <hr>
+
+    <div class="row text-center w-100%" id="musicas"></div>
+
+    <datalist id="repertorio"></datalist>
+    <datalist id="integrantes"></datalist>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js "></script>
+    <script type="text/javascript " src="./assets/js/scrolling.js "></script>
+    <script type="text/javascript " src="./assets/js/main.js "></script>
+</body>
+
+</html>
