@@ -37,7 +37,7 @@ function lerDataMusic(json) {
         html += `<li class="card list-group-item-action border-primary">
 					<div class="card-header">
 						<p class="" type="button" data-toggle="collapse" data-target="#${id + i}" aria-expanded="false" aria-controls="collapseOne">
-							${i + 1}. ${json[i].nome} - ${json[i].tom}.
+							${i + 1}. ${json[i].nome} - ${json[i].tom}
 							<br>
 							<i>(${json[i].autor})</i>
 						</p>
@@ -67,7 +67,7 @@ function addMusic() {
             }
         });
 
-        let html = `<li class="musicas border-primary col-10 list-group-item list-group-item-action" ondblclick="delMusic()">
+        let html = `<li class="limusic border-primary col-10 list-group-item list-group-item-action" ondblclick="delMusic()">
                         *${input} - *${tom}*<br>
                         _(${autor})_
                     </li>`;
@@ -79,10 +79,10 @@ function addMusic() {
 }
 
 function delMusic() {
-    var el = document.getElementById('lista');
+    var el = document.getElementsByClassName("limusic");
     for (var i = 0; i < el.length; i++) {
-        el[i].addEventListener("dblclick", function(e) {
-            //alert('Deletar ' + this.innerHTML);
+        el[i].addEventListener("ondblclick", function(e) {
+            alert('Deletar ' + this.innerHTML);
             this.remove();
         })
     }
