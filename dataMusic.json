@@ -1,4 +1,22 @@
 [{
+        "nome": "Cicatrizes",
+        "tom": "A",
+        "autor": "Bruna Karla",
+        "letra": "<b>[verso]</b><br>Deus conhece a minha história<br>Sabe tudo que eu passei<br>Sabe a marca que ficou em mim<br>Dor que não passava<br>Achei que nunca ia esquecer<br>Aquela marca que ficou em mim<br><br><b>[pré refrão]</b><br>A fé diminuía, a dor só aumentava<br>Eu não falava, mas minh'alma só gritava<br>E não havia nada que me desse paz<br><br>Foi quando meu Jesus tocou em minha vida<br>E colocou remédio na minha ferida<br>O que doía tanto, agora não dói mais<br><br><b>[refrão]</b><br>Uma nova história começou em mim<br>Daquela dor, só me restou a cicatriz<br>Jesus foi o remédio que me fez viver<br><br>Tudo o que eu perdi, o Senhor devolveu<br>E me fez esquecer tudo que aconteceu<br>E hoje eu tenho mais de mil motivos<br>Pra adorar a Deus<br>"
+    },
+    {
+        "nome": "Óleo de Alegria",
+        "tom": "E",
+        "autor": "Marine Friesen",
+        "letra": "<b>[verso]</b><br>Em Tua presença eu sou livre, meu Deus<br>Eu cantarei pra sempre do Teu amor<br>Que lança fora o medo<br>Que lança fora o medo<br><br><b>[pré refrão]</b><br>Em Tua presença, até a tristeza salta de alegria<br>Eu vou cantar do Teu amor<br>Que mudou a minha vida, pra sempre<br><br><b>[refrão]</b><br>Em todo tempo Tu és bom, Tu és bom<br>Em todo tempo Tu és bom, Tu és bom<br><br><b>[ponte]</b><br>Óleo de alegria<br>Ao invés de pranto<br>Veste de louvor<br>Ao invés de espírito angustiado<br>"
+    },
+    {
+        "nome": "O Hino",
+        "tom": "Dm",
+        "autor": "Fernandinho",
+        "letra": "<b>[verso 1]</b><br>Posso ouvir os passos do meu Rei<br>Posso escutar Seu coração<br>Da minha escuridão me libertou<br>Posso ouvir o Pai a me chamar<br><br><b>[refrão]</b><br>Eu ouço: Filho meu, chegou tua hora de brilhar<br>Você nasceu pra Mim<br>Eu ouço: Filho meu, chegou tua hora de brilhar<br>Você nasceu pra Mim<br>Pra esse tempo<br><br><b>[verso 2]</b><br>Posso ouvir o santo som aqui<br>Anunciando sobre um grande Rei<br>Rompendo as barreiras e grilhões<br>Eu quero ouvir o Pai a me chamar<br><br><b>[parte 2]</b><br>Esse é o hino dessa geração<br>Usa-nos Deus, aqui estamos<br>Queremos mais de Ti, Senhor<br>O Teu amor nos alcançou<br><br><b>[ponte]</b><br>Ah! Jesus é Rei<br>Ah! Me conquistou<br>Ah! Me libertou<br>Pra viver uma nova história<br><br><b>[outro]</b><br>Vamos mudar o mundo<br>Vamos mudar o mundo<br>Vamos mudar o mundo<br>Vamos mudar o mundo<br>"
+    },
+    {
         "nome": "Uma Nova História",
         "tom": "A",
         "autor": "Fernandinho",
@@ -9,35 +27,42 @@
         "tom": "G",
         "autor": "Renascer Praise",
         "letra": "<b>[refrão]</b><br>Dê e Deus te devolverá<br>Mui grande medida sacudida e transbordante<br>Dê e Deus te devolverá<br> Então dê, dê ao Senhor<br><br><b>[verso]</b><br>Dê em amor<br>Dê em fé<br>Dê feliz com um sorriso no rosto<br>Como o Senhor tem dado a você<br>Quando você der a Deus ele te abençoará<br>"
-    }, {
-        "nome": "Mil Graus",
-        "tom": "C",
-        "autor": "Renascer Praise",
-        "letra": ""
+    },
+    {
+        "nome": "Os Que Esperam",
+        "tom": "D",
+        "autor": "Nívea Soares",
+        "letra": "<b>[verso]</b><br>Os que esperam em Ti, Senhor, como águias voarão<br>Os que esperam em Ti, Senhor, confundidos não serão<br><br><b>[pre refrão]</b><br>Multiplica as forças ao cansado e renova os que não têm vigor<br>Não temerão os que esperam nEle, torre forte é o nome do Senhor<br><br><b>[refrão]</b><br>Te adoro, oh Deus, Rei de toda a terra<br>Jesus, sou Teu<br>És meu fôlego de vida, fonte eterna de alegria<br>Te adoro, oh Deus<br>"
     },
     {
         "nome": "A Casa é Sua",
         "tom": "G",
         "autor": "Casa Worship",
-        "letra": ""
+        "letra": "letra"
+    },
+    {
+        "nome": "Mil Graus",
+        "tom": "C",
+        "autor": "Renascer Praise",
+        "letra": "letra"
     },
     {
         "nome": "A Ele a Glória",
         "tom": "Dm",
         "autor": "Gabriela Rocha",
-        "letra": ""
+        "letra": "letra"
     },
     {
         "nome": "A Paz É Uma Promessa",
         "tom": "A",
         "autor": "Drops INA",
-        "letra": ""
+        "letra": "letra"
     },
     {
         "nome": "A Vitória Chegou",
         "tom": "G",
         "autor": "Aurelina Dourado",
-        "letra": ""
+        "letra": "letra"
     },
     {
         "nome": "Advogado Fiel",
@@ -445,6 +470,12 @@
         "nome": "Você Não Vai Parar",
         "tom": "A",
         "autor": "Samuel Messias",
+        "letra": ""
+    },
+    {
+        "nome": "",
+        "tom": "",
+        "autor": "",
         "letra": ""
     }
 ]

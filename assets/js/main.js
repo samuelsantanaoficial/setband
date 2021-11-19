@@ -31,7 +31,7 @@ function lerDataMusic(json) {
     }
 
     // Cria a lista com todas as musicas
-    let html = `<ul class="accordion list-group" id="music">`;
+    let html = `<ul class="accordion list-group container-fluid" id="music">`;
 
     json.map((musicas, i) => {
         html += `<li class="card list-group-item-action border-primary">
