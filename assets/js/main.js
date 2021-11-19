@@ -144,7 +144,7 @@ function salvarTexto() {
 
     texto += `\n\n`;
 
-    var music = document.getElementsByClassName("musicas");
+    var music = document.getElementsByClassName("limusic");
 
     for (var i = 0; i < music.length; i++) {
         texto += `${i + 1}. ${music[i].innerText}\n\n`;
