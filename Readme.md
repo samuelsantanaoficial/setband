@@ -1,13 +1,40 @@
-Crie facilmente SetLists para a sua banda ou grupo musical com a aplicação Web SetBand.
+# **SetBand**
 
-escolha as musicas e arraste pra ficar na melhor ordem para sua banda tocar,
-![setband-0](https://user-images.githubusercontent.com/90654775/142519518-e718a9be-b0b2-4c04-9311-967c0e745640.gif)
+## _Aplicação web_
 
-veja a letra das músicas antes de escolher
-![setband-1](https://user-images.githubusercontent.com/90654775/142519536-5b753426-eec2-4ad6-af48-e257cfa6d9c8.gif)
+> Em fase inicial, mas já quebra um galho:\
+setband é uma aplicação simples, onde vc tem armazenado, o reperório de sua banda + lista de integrantes, e, de maneira bem simples pesquisa as músicas, clica e arrasta, para deixar na melhor ordem possivel, escala os integrantes do grupo, e gera um texto ja formatato para enviar pelo whatsapp!
 
-escale os cantore/músicos pra tocar no seu evento
-![setband-2](https://user-images.githubusercontent.com/90654775/142519541-859d3a62-2b28-4f61-974c-ced781c242bb.gif)
+### Estrutura de pastas da aplicação...
+<div>
+    setband/<br>
+    ┣ 📂 assets/<br>
+    ┣ ┣ 📂 favicon/<br>
+    ┣ ┣ 📂 img/<br>
+    ┣ ┣ 📂 js/<br>
+    ┃ ┗ ┗ main.js<br>
+    ┃ ┣ ┣ scrolling.js<br>
+    ┣ ┣ 📂 perfil/<br>
+    ┗ dataEscala.json<br>
+    ┣ dataMusic.json<br>
+    ┣ index.html<br>
+    ┗ Readme.md<br>
+</div>
 
-depois de configurar tudo, é hora de copiar o texto ja formatado, e pronto pra enviar no whatsapp!
-![setband-3](https://user-images.githubusercontent.com/90654775/142519549-5aeab302-6773-4960-9545-3fd7209fb505.gif)
+## Tecnologias:
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" width="40" height="40"/>
+
+## Detalhes:
+> A aplicação usa dois arquivos local .json como banco de dados, e por isso só funciona em (live serve) (local host) ou hospedado em algum servidor online:
+
+>> dataMusic.json = contém todas as musicas.\
+dataEscala.json = contém todos os integrantes da banda.
+
+### Contatos:
+
+<div>
+<a href="https://www.youtube.com/channel/UCZJ6Z7xqXmfipoPUIuq0t7A" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
+<a href="https://www.instagram.com/samuelsantana_oficial/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://twitter.com/SamuelS32584303" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white"></a>
+<a href = "mailto:psicopatadamusica@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>   
+</div>
