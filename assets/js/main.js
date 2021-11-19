@@ -34,17 +34,17 @@ function lerDataMusic(json) {
     let html = `<ul class="accordion list-group" id="music">`;
 
     json.map((musicas, i) => {
-        html += `<li class="card list-group-item-action">
+        html += `<li class="card list-group-item-action border-primary">
 					<div class="card-header">
-						<h5 class="" type="button" data-toggle="collapse" data-target="#${id + i}" aria-expanded="false" aria-controls="collapseOne">
+						<p class="" type="button" data-toggle="collapse" data-target="#${id + i}" aria-expanded="false" aria-controls="collapseOne">
 							${i + 1}. ${json[i].nome} - ${json[i].tom}.
 							<br>
 							<i>(${json[i].autor})</i>
-						</h5>
+						</p>
 					</div>
 
 					<div id="${id + i}" class="collapse" aria-labelledby="${id + i}" data-parent="#music">
-						<div class="card-body"><b>Letra</b><br>
+						<div class="card-body">
 							${json[i].letra}
 						</div>
 					</div>
@@ -67,7 +67,7 @@ function addMusic() {
             }
         });
 
-        let html = `<li class="musicas col-10 list-group-item list-group-item-action" ondblclick="delMusic()">
+        let html = `<li class="musicas border-primary col-10 list-group-item list-group-item-action" ondblclick="delMusic()">
                         *${input} - *${tom}*<br>
                         _(${autor})_
                     </li>`;
@@ -79,7 +79,7 @@ function addMusic() {
 }
 
 function delMusic() {
-    var el = document.getElementsByClassName("musicas");
+    var el = document.getElementById('lista');
     for (var i = 0; i < el.length; i++) {
         el[i].addEventListener("dblclick", function(e) {
             //alert('Deletar ' + this.innerHTML);
@@ -110,7 +110,7 @@ function addEscala() {
                 html = `<div class="card" style="width: 10rem;">
                         <img class="card-img-top" src="${integrante[i].img}">
                         <div class="card-body">
-                            <h5 class="escala card-title">${integrante[i].nome}</h5>
+                            <h5 class="escala text-primary text-center card-title">${integrante[i].nome}</h5>
                         </div>
                     </div>`
             }
