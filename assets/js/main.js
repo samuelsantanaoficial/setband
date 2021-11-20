@@ -34,7 +34,7 @@ function lerDataMusic(json) {
     let html = `<ul class="accordion list-group container-fluid" id="music">`;
 
     json.map((musicas, i) => {
-        html += `<li class="card list-group-item-action border-primary">
+        html += `<li class="card list-group-item-action border-primary" style="background-color: #dafbff;">
 					<div class="card-header">
 						<p class="" type="button" data-toggle="collapse" data-target="#${id + i}" aria-expanded="false" aria-controls="collapseOne">
 							${i + 1}. ${json[i].nome} - ${json[i].tom}
@@ -43,7 +43,7 @@ function lerDataMusic(json) {
 						</p>
 					</div>
 
-					<div id="${id + i}" class="collapse" aria-labelledby="${id + i}" data-parent="#music">
+					<div id="${id + i}" class="collapse" style="background-color: #fff;" aria-labelledby="${id + i}" data-parent="#music">
 						<div class="card-body">
 							${json[i].letra}
 						</div>
@@ -68,7 +68,7 @@ function addMusic() {
         });
 
         let html = `<li class="limusic border-primary col-10 list-group-item list-group-item-action" ondblclick="delMusic()">
-                        *${input} - *${tom}*<br>
+                        ${input} - *${tom}*<br>
                         _(${autor})_
                     </li>`;
 
