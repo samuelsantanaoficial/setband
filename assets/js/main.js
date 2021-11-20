@@ -31,12 +31,12 @@ function lerDataMusic(json) {
     }
 
     // Cria a lista com todas as musicas
-    let html = `<ul class="accordion list-group container-fluid" id="music">`;
+    let html = `<ul class="accordion col" id="music">`;
 
     json.map((musicas, i) => {
-        html += `<li class="card list-group-item-action border-primary" style="background-color: #dafbff;">
+        html += `<li class="text-white bg-primary border">
 					<div class="card-header">
-						<p class="" type="button" data-toggle="collapse" data-target="#${id + i}" aria-expanded="false" aria-controls="collapseOne">
+						<p class="" type="button" data-toggle="collapse" data-target="#${id + i}" aria-expanded="false">
 							${i + 1}. ${json[i].nome} - ${json[i].tom}
 							<br>
 							<i>(${json[i].autor})</i>
@@ -44,7 +44,7 @@ function lerDataMusic(json) {
 					</div>
 
 					<div id="${id + i}" class="collapse" style="background-color: #fff;" aria-labelledby="${id + i}" data-parent="#music">
-						<div class="card-body">
+						<div class="card-body text-dark">
 							${json[i].letra}
 						</div>
 					</div>
@@ -67,7 +67,7 @@ function addMusic() {
             }
         });
 
-        let html = `<li class="limusic border-primary col-10 list-group-item list-group-item-action" ondblclick="delMusic()">
+        let html = `<li class="limusic border col-10 col-md-11 list-group-item list-group-item-action" ondblclick="delMusic()">
                         ${input} - *${tom}*<br>
                         _(${autor})_
                     </li>`;
