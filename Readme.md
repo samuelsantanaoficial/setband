@@ -7,18 +7,18 @@ setband é uma aplicação simples, onde vc tem armazenado, o reperório de sua 
 
 ### Estrutura de pastas da aplicação...
 <div>
+bootstrap/
     setband/<br>
-    ┣ 📂 assets/<br>
-    ┣ ┣ 📂 favicon/<br>
-    ┣ ┣ 📂 img/<br>
-    ┣ ┣ 📂 js/<br>
-    ┃ ┗ ┗ main.js<br>
-    ┃ ┣ ┣ scrolling.js<br>
-    ┣ ┣ 📂 perfil/<br>
-    ┗ dataEscala.json<br>
-    ┣ dataMusic.json<br>
-    ┣ index.html<br>
-    ┗ Readme.md<br>
+    ├── 📂 assets/<br>
+    │   ├── 📂 favicon/<br>
+    │   ├── 📂 img/<br>
+    │   ├── 📂 js/<br>
+    │   └── └── main.js<br>
+    │   └── └── scrolling.js<br>
+    ├── dataEscala.json<br>
+    ├── dataMusic.json<br>
+    ├── index.html<br>
+    └── Readme.md<br>
 </div>
 
 ## Tecnologias:
@@ -27,7 +27,7 @@ setband é uma aplicação simples, onde vc tem armazenado, o reperório de sua 
 ## Detalhes:
 > A aplicação usa dois arquivos local .json como banco de dados, e por isso só funciona em (live serve) (local host) ou hospedado em algum servidor online:
 
->> dataMusic.json = contém todas as musicas.\
+> dataMusic.json = contém todas as musicas.\
 dataEscala.json = contém todos os integrantes da banda.
 
 ### Contatos:
@@ -35,6 +35,5 @@ dataEscala.json = contém todos os integrantes da banda.
 <div>
 <a href="https://www.youtube.com/channel/UCZJ6Z7xqXmfipoPUIuq0t7A" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
 <a href="https://www.instagram.com/samuelsantana_oficial/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-<a href="https://twitter.com/SamuelS32584303" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white"></a>
 <a href = "mailto:psicopatadamusica@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>   
 </div>

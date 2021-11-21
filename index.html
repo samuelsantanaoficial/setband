@@ -37,7 +37,7 @@
     <main class="container-fluid">
 
         <!-- inicio -->
-        <div id="inicio" class="row pt-2">
+        <div id="inicio" class="row pt-2 pb-3 border-bottom">
 
             <!-- legenda col-sm- col-md col-lg- col-xl- -->
             <div class="col-12 pt-3">
@@ -74,13 +74,11 @@
 
         </div>
 
-        <hr>
-
         <!-- setlist & escala -->
         <div class="row p-2">
 
             <!-- escolha -->
-            <div id="escolha" class="p-2 col-lg-4">
+            <div id="escolha" class="p-2 col-lg-4 border-bottom">
 
                 <!-- legenda -->
                 <div class="col-12 pt-3">
@@ -101,14 +99,12 @@
 
                 <!-- setlist -->
                 <div class="col-12 pt-3">
-                    <ul class="list-group setlist col-12 bg-primary" id="lista"></ul>
+                    <ul class="list-group rounded setlist col-12 bg-primary" id="lista"></ul>
                 </div>
-
-                <hr>
             </div>
 
             <!-- escala -->
-            <div id="escala" class="p-2 col-lg-4">
+            <div id="escala" class="p-2 col-lg-4 border-bottom">
 
                 <!-- legenda -->
                 <div class="col-12 pt-3">
@@ -117,7 +113,7 @@
 
                 <!-- input -->
                 <div class="col-12 pt-3">
-                    <label>Nome da Integrante</label>
+                    <label>Nome do Integrante</label>
                     <br>
                     <input class="rounded col-12" type="text" id="membro" list="integrantes">
                 </div>
@@ -131,12 +127,10 @@
                 <div class="col-12 pt-3">
                     <div id="membros" class="row justify-content-center"></div>
                 </div>
-
-                <hr>
             </div>
 
             <!-- fim -->
-            <div id="fim" class="p-2 col-lg-4">
+            <div id="fim" class="p-2 col-lg-4 border-bottom">
 
                 <!-- legenda -->
                 <div class="col-12 pt-3">
@@ -151,8 +145,9 @@
                 </div>
 
                 <!-- botão -->
-                <div class="col-12 pt-3">
-                    <button class="btn btn-primary" type="button" onclick="copiar()">Gerar SetList</button>
+                <div class="col-12 pt-3 pb-5">
+                    <button class="btn btn-primary float-left" type="button" onclick="salvarTexto()">Gerar SetList</button>
+                    <button class="btn btn-primary float-right" type="button" onclick="copiar()">Copiar</button>
                 </div>
 
                 <!-- texto -->
@@ -160,16 +155,12 @@
                     <legend id="leg" class="text-primary text-center">SetList</legend>
                     <textarea class="form-control rounded w-80 border" rows="25" type="text" id="resultado"></textarea>
                 </div>
-
-                <hr>
             </div>
 
         </div>
 
-        <hr>
-
         <!-- lista com todas as musicas -->
-        <div class="row text-center pt-2 border" id="musicas"></div>
+        <div class="row text-center pt-2" id="musicas"></div>
     </main>
 
     <!-- data lista -->

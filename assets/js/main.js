@@ -67,7 +67,7 @@ function addMusic() {
             }
         });
 
-        let html = `<li class="limusic border col-10 col-md-11 list-group-item list-group-item-action" ondblclick="delMusic()">
+        let html = `<li class="limusic border rounded-0 col-10 col-md-11 list-group-item" ondblclick="delMusic()">
                         ${input} - *${tom}*<br>
                         _(${autor})_
                     </li>`;
@@ -181,7 +181,6 @@ new Sortable(dragAreaSetlist, {
 
 function copiar() {
 
-    salvarTexto();
     var content = document.getElementById('resultado');
 
     content.select();
