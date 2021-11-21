@@ -1,4 +1,16 @@
 [{
+        "nome": "Não Morrerei",
+        "tom": "",
+        "autor": "Marquinhos Gomes",
+        "letra": "letra"
+    },
+    {
+        "nome": "Existe Vida Aí",
+        "tom": "A",
+        "autor": "Jessé Aguiar",
+        "letra": "<b>[verso]</b><br>Não acabou, espalharam por aí<br>Que já terminou e que era o teu fim<br>Mas não terminou<br>Se enganou quem pensou<br>Que a história findou, se equivocou<br><br><b>[pré refrão]</b><br>Eu vou mostrar pra quem achou que terminou<br>Eu vou deixar pensarem que o projeto falhou<br>Eu vou chegar depois só pra impressionar<br>Eu tô montando um contexto<br>Porque eu quero impactar<br><br>Eu já lhe aviso logo, não pense que morreu<br>Que a história acabou e que você perdeu<br>Eu vou entrar no ambiente pra operar<br>Com os olhos da fé passe a enxergar<br><br><b>[refrão]</b><br>Que ainda tem vida aí<br>E mesmo que o cenário diga que é o fim<br>E as evidências gritam que é pra desistir<br>Mas eu estou dizendo Ainda existe vida aí<br><br>Ainda tem vida ai<br>O tempo não limita o que eu vou fazer<br>Eu lhe garanto e afirmo pra você<br>Ainda tem vida ai vai voltar a viver<br>Existe vida ai<br><br><b>[ponte]</b><br>Ainda tem jeito não acabou<br>Ainda tem jeito não terminou<br>Deixa pensar que vai ficar como esta<br>Eu vou chegar depois mas vou ressucitar<br>E vou mostrar que ainda tem solução<br>Descansa, acalma o teu coração<br>Eu vou chegar, vou trabalhar, Eu vou ressuscitar<br>"
+    },
+    {
         "nome": "Cicatrizes",
         "tom": "A",
         "autor": "Bruna Karla",
@@ -476,6 +488,6 @@
         "nome": "",
         "tom": "",
         "autor": "",
-        "letra": ""
+        "letra": "letra"
     }
 ]
