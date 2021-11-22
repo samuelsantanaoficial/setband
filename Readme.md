@@ -8,21 +8,21 @@ setband é uma aplicação simples, onde vc tem armazenado, o reperório de sua 
 ### Estrutura de pastas da aplicação...
 <div>
 bootstrap/
-    setband/<br>
-    ├── 📂 assets/<br>
-    │   ├── 📂 favicon/<br>
-    │   ├── 📂 img/<br>
-    │   ├── 📂 js/<br>
-    │   └── └── main.js<br>
-    │   └── └── scrolling.js<br>
-    ├── dataEscala.json<br>
-    ├── dataMusic.json<br>
-    ├── index.html<br>
-    └── Readme.md<br>
+setband/<br>
+├── 📂 assets/<br>
+│   ├── 📂 favicon/<br>
+│   ├── 📂 img/<br>
+│   ├── 📂 js/<br>
+│   └── └── main.js<br>
+│   └── └── scrolling.js<br>
+├── dataEscala.json<br>
+├── dataMusic.json<br>
+├── index.html<br>
+└── Readme.md<br>
 </div>
 
 ## Tecnologias:
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" width="40" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="40" height="40"/>
 
 ## Detalhes:
 > A aplicação usa dois arquivos local .json como banco de dados, e por isso só funciona em (live serve) (local host) ou hospedado em algum servidor online:
