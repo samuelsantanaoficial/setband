@@ -6,6 +6,7 @@ var repertorio;
 var integrante;
 var texto;
 var id = `id`;
+var escala = [];
 
 axios.get(url)
     .then(samuel => {
