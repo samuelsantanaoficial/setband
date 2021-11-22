@@ -1,4 +1,10 @@
 [{
+        "nome": "",
+        "tom": "",
+        "autor": "",
+        "letra": "letra"
+    },
+    {
         "nome": "Existe Vida Aí",
         "tom": "A",
         "autor": "Jessé Aguiar",
@@ -483,11 +489,5 @@
         "tom": "A",
         "autor": "Samuel Messias",
         "letra": ""
-    },
-    {
-        "nome": "",
-        "tom": "",
-        "autor": "",
-        "letra": "letra"
     }
 ]

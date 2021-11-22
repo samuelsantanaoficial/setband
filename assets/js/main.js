@@ -21,6 +21,15 @@ axios.get('dataEscala.json')
     });
 
 function lerDataMusic(json) {
+
+    json.sort(function(a, b) {
+        if (a.nome < b.nome) {
+            return false;
+        } else {
+            return true;
+        }
+    });
+
     // data list
     var lista = document.getElementById('repertorio');
 
@@ -92,6 +101,14 @@ function delMusic() {
 function lerEscala(integrante) {
     // data list
     var lista = document.getElementById('integrantes');
+
+    integrante.sort(function(a, b) {
+        if (a.nome < b.nome) {
+            return false;
+        } else {
+            return true;
+        }
+    });
 
     for (var i = 0; i < integrante.length; i++) {
         let item = document.createElement('option');
