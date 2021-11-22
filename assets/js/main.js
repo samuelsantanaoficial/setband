@@ -8,17 +8,15 @@ var texto;
 var id = `id`;
 var escala = [];
 
-axios.get(url)
-    .then(samuel => {
-        repertorio = samuel.data;
-        lerDataMusic(samuel.data)
-    });
+axios.get(url).then(samuel => {
+    repertorio = samuel.data;
+    lerDataMusic(samuel.data)
+});
 
-axios.get('dataEscala.json')
-    .then(membros => {
-        integrante = membros.data;
-        lerEscala(membros.data)
-    });
+axios.get('dataEscala.json').then(membros => {
+    integrante = membros.data;
+    lerEscala(membros.data)
+});
 
 function lerDataMusic(json) {
 

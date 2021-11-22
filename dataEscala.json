@@ -1,25 +1,25 @@
 [{
     "nome": "Ellyh",
-    "img": "./assets/img/Ellyh.png"
+    "img": "./assets/img/Ellyh@0.3x.png"
 }, {
     "nome": "Raissa",
-    "img": "./assets/img/Raissa.png"
+    "img": "./assets/img/Raissa@0.3x.png"
 }, {
     "nome": "Duda",
-    "img": "./assets/img/Duda.png"
+    "img": "./assets/img/Duda@0.3x.png"
 }, {
     "nome": "Leia",
-    "img": "./assets/img/Leia.png"
+    "img": "./assets/img/Leia@0.3x.png"
 }, {
     "nome": "Luan",
-    "img": "./assets/img/Luan.png"
+    "img": "./assets/img/Luan@0.3x.png"
 }, {
     "nome": "Vitor",
-    "img": "./assets/img/Vitor.png"
+    "img": "./assets/img/Vitor@0.3x.png"
 }, {
     "nome": "Zé Silva",
-    "img": "./assets/img/Ze-Silva.png"
+    "img": "./assets/img/Ze-Silva@0.3x.png"
 }, {
     "nome": "Samuel",
-    "img": "./assets/img/Samuel.png"
+    "img": "./assets/img/Samuel@0.3x.png"
 }]
